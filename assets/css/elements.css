@@ -54,3 +54,25 @@ a {
 p {
     margin-bottom: 3rem;
 }
+
+table caption {
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    padding: 0.5rem;
+    text-align: left;
+    border: 0.1rem solid var(--light-grey-color);
+}
+
+tfoot td, table th {
+    background: var(--light-grey-color);
+}
